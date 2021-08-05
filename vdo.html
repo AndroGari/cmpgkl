@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="img/—Pngtree—computer desktop gaming pc personal_4437152.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="abtUsINDX.html">ABOUT US</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+    <h1>Our Institute</h1>   
+    </section>
+
+
+    
+    <section class="vdo">
+
+
+        <div class="container">
+            <h1>VIDEO GALLERY</h1>
+            <div class="rows">
+                <div class="cols">
+                    <div class="feature-img">
+                        <img src="images/pexels-tranmautritam-326502.jpg" width="100%">
+                        <i class="far fa-play-circle" onclick="playvideo('img/alb_datastream1006_1080p_24fps.mp4')"></i>
+                    </div>
+                </div>
+                <div class="cols">
+                    <div class="smlrow">
+                        <div class="smlimg">
+                            <img src="img/pexels-thisisengineering-3862132.jpg">
+                            <i class="far fa-play-circle" onclick="playvideo('img/Data_Grid.mp4')"></i>
+                        </div>
+                        <p>Online Mentorship details</p>
+                    </div>
+                    <div class="smlrow">
+                        <div class="smlimg">
+                            <img src="img/pexels-designecologist-1779487.jpg">
+                            <i class="far fa-play-circle" onclick="playvideo('img/futuristic_digital_data_processing_nano2.mp4')"></i>
+                        </div>
+                        <p>Digital Platform</p>
+                    </div>
+                    <div class="smlrow">
+                        <div class="smlimg">
+                            <img src="img/pexels-pixabay-270404.jpg">
+                            <i class="far fa-play-circle" onclick="playvideo('img/ICON_VERSION8.mp4')"></i>
+                        </div>
+                        <p>our Infrastructure</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+
+
+    <div class="vdoplay" id="videoplay">
+        <video width="100%" controls autoplay loop id="video">
+            <source src="img/alb_datastream1006_1080p_24fps.mp4" type="video/mp4">
+        </video>
+        <i class="far fa-pause-circle" onclick="stopvideo()"></i>
+
+    </div>
+    </section>
+
+
+
+
+    <section class="branch">
+        <h1>Our Branches</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        
+        <div class="row">
+            <div class="branch-col">
+                <img src="img/pexels-alfauzikri-5823879.jpg" alt="">
+                <div class="layer">
+                    <h3>LUCKNOW</h3>
+                </div>
+            </div>
+            <div class="branch-col">
+                <img src="img/pexels-bali-demiri-3801167.jpg" alt="">
+                <div class="layer">
+                    <h3>NEW DELHI</h3>
+                </div>
+            </div>
+            <div class="branch-col">
+                <img src="img/pexels-adrien-olichon-3709337.jpg" alt="">
+                <div class="layer">
+                    <h3>NOIDA</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, eligendi!</p>
+        
+        <div class="row">
+            <div class="facilities-col">
+                <img src="img/pexels-pixabay-267507 (1).jpg">
+                <h3>Full FLedged Labs</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi possimus adipisci corrupti facilis obcaecati.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/pexels-fauxels-3182804.jpg">
+                <h3>Experienced Faculties</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi possimus adipisci corrupti facilis obcaecati.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="img/pexels-designecologist-1779487.jpg">
+                <h3>Government Verified Certification</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi possimus.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia aperiam inventore aliquid <br>
+            earum exercitationem consectetur modi, necessitatibus laboriosam rerum et!</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i> 
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+</section>
+
+    <footer class="center">
+        Copyright &copy; www.mystudyGURUKUL.com All rights reserved!!
+    </footer>
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+        var videoplay= document.getElementById("videoplay");
+        var video= document.getElementById("video");
+        function stopvideo(){
+            videoplay.style.display="none";          
+        }
+        function playvideo(file){
+            video.src= file;
+            videoplay.style.display="block";
+        }
+    </script>
+
+</body>
+</html>
